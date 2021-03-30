@@ -1,0 +1,19 @@
+{
+  "name": "Responsive Styled Components",
+  "version": "1.0.0",
+  "description": "Programmatically generating responsive styled components that apply arbitrary sets of style rules within arbitrary widths.",
+  "keywords": [
+    "responsive",
+    "styled-components",
+    "media query",
+    "breakpoint",
+    "react"
+  ],
+  "homepage": "https://codesandbox.io/s/6lxz6lzrvn",
+  "main": "index.js",
+  "dependencies": {
+    "styled-components": "2.1.0",
+    "react-dom": "15.6.1",
+    "react": "15.6.1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"homepage": "http://mystyledcomponents.github.io/mystyledcomponents",
+  "name": "responsive-styled-components",
+  "version": "0.0.112",
+  "description": "Programmatically generating responsive styled components that apply arbitrary sets of style rules within arbitrary widths.",
+  "keywords": [
+    "responsive",
+    "styled-components",
+    "media query",
+    "breakpoint",
+    "react"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "styled-components": "2.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+  }
+}
